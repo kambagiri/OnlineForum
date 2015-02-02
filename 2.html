@@ -1,0 +1,87 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+   <head>
+      <title> Question 2 </title>
+      <link href="forumstyle.css" rel="stylesheet" type="text/css" >
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+      <script type="text/javascript" src="answer.js" ></script>
+   </head>
+
+   <body>
+   	<div id= "topbar">
+   		    <div id="links">
+		 		<a href="./MyProject.html"> <img src ="oftopleft.png" alt="Onlineforum home link"> </a>
+  			</div>
+   			<div id="login">
+   				<ul>
+		 	  		   <li class="help"><a href="./help.html"> Help </a></li>
+		 	  		   <li class= "login"> <a href="./login.html"> Login </a> </li>
+                  <li class="signup"> <a href="./signup.html"> Signup </a> </li>
+              		<li class="contact"> <a href="./contact.html"> Contact </a> </li>
+            	</ul>
+            </div>
+   	</div> 
+
+   	<div id ="wrapper">
+   		<div id ="header">
+   		    <div id="headerlogo">
+				<div id="logo">
+					<a href="./MyProject.html"> <img src ="onlineforum.png" alt="Onlineforum home link"> </a>
+				</div>
+				<div id = "nav-links">
+					 <div class="menu">
+    					<ul>
+      						<li><a href="./questions.php">Questions</a></li>
+      						<li><a href="./tags.html"> Tags</a></li>
+      						<li><a href="./askquestion.html">Ask a New Question</a></li>
+    					</ul>
+    				</div>
+				</div>
+			</div>
+   		</div>
+
+   		<div id="content">
+   			<div id="mainbar">
+          <audio id="button_click" src="bubble.mp3" preload="auto"></audio>
+   			   <div id="help-content">
+   			   		<p class="questions"> Question </p>
+                      <h4> Title : How to write a css file </h4>
+                      <p>   I wanted to write a css styling to create a web page. Please advice me on how to write a css.  </p>
+                      <div id ="addanswer"> 
+                          <textarea rows = "5" cols = "100" name ="postanswer" > Enter your answere here... </textarea>  <br /> 
+                          <input type="button" id="panswersubmit" value="Submit" onclick="answersubmit()" >
+                          <input type="reset" id="panswercancel" value="cancel" onclick="resettextarea()">
+                      </div>
+                      <input type="button" id="answer" value = "Answer the Question" onclick= "addAnswer()"> </input>
+
+
+                      <p id="answerforum"> Trail and error is the recommendable answer to your question. Just try changing the values and get to know how each class functions. </p>
+   			   </div>
+
+   			</div>
+   			<div id="sidebar">
+   				<div class ="ad">
+   					<iframe src='https://onedrive.live.com/embed?cid=47B79D935AA26504&resid=47B79D935AA26504%21107&authkey=&em=2&wdAr=1.7777777777777777' width='350px' height='221px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+
+
+   	<div id="footer">
+   			<ul>
+   				<li> <a href="./help.html"> help </a> </li>
+   				<li> <a href="./contact.html"> contact us </a> </li>
+   				<li> <a href="./adinfo.html"> Advertising info </a> </li>
+   				<li> <a href="./feedback.html"> feedback </a> </li>
+   			</ul>
+   			<div id="copyright">
+   					<p> Site Designed by KambaGiri Atte.</p>
+   			</div>
+   		</div>
+   </body>
+
+</html>
